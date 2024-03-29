@@ -34,14 +34,14 @@ public class Ejercicio21 {
 
         System.out.println("el número mayor es:  = " + mayor);
 
-        for (int num : numeros) {
+        /*for (int num : numeros) {
             if (num > mayor) {
                 mayor = num;
             }
         }
         System.out.println("== for mejorado ==");
 
-        System.out.println("el número mayor es: " + mayor);
+        System.out.println("el número mayor es: " + mayor);*/
 
 
 
