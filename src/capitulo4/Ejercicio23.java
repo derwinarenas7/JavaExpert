@@ -18,16 +18,18 @@ public class Ejercicio23 {
             contador++;
         }
 
-        //System.out.println(Arrays.toString(numeros));
-
-        int mayor = Integer.MIN_VALUE;
+        int mayor1 = Integer.MIN_VALUE;
         int mayor2 = Integer.MIN_VALUE;
         for (int i = 0; i < count; i++) {
-            if (numeros[i] > mayor) {
-                mayor = numeros[i];
+            if (numeros[i] > mayor1) {
+                mayor2 = mayor1;
+                mayor1 = numeros[i];
+            } else if (numeros[i] > mayor2 && numeros[i] != mayor1) {
+                mayor2 = numeros[i];
             }
         }
-        System.out.println(mayor);
+        System.out.println("el primer número mayor es: " + mayor1);
+        System.out.println("El segundo número mayor es: " + mayor2);
 
 
 
