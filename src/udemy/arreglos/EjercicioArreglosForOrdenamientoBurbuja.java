@@ -15,7 +15,7 @@ public class EjercicioArreglosForOrdenamientoBurbuja {
         };
         int count = productos.length;
 
-        for (int i = 0; i < count; i++) {
+        /*for (int i = 0; i < count; i++) {
             for (int j = 0; j < count; j++) {
                 if (productos[i].compareTo(productos[j]) < 0) {
                     String auxiliar = productos[i];
@@ -23,9 +23,17 @@ public class EjercicioArreglosForOrdenamientoBurbuja {
                     productos[j] = auxiliar;
                 }
             }
+        }*/
+
+        for (int i = 0; i < count - 1; i++) {
+            for (int j = 0; j < count - 1 - i; j++) {
+                if (productos[j + 1].compareTo(productos[j]) < 0) {
+                    String auxiliar = productos[j];
+                    productos[j] = productos[j + 1];
+                    productos[j + 1] = auxiliar;
+                }
+            }
         }
-
-
 
         //Arrays.sort(productos);
 
