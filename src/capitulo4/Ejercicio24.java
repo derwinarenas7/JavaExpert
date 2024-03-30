@@ -20,10 +20,7 @@ public class Ejercicio24 {
 
             while (resultado != 1 && resultado != 2) {
                 System.out.println("El resultado debe ser 1 o 2. Escriba el resultado (1=aprobado, 2=reprobado): ");
-                main(args);
-                aprobados++;
-                reprobados++;
-                contadorEstudiantes++;
+                resultado = entrada.nextInt();
             }
 
             if (resultado == 1) {
