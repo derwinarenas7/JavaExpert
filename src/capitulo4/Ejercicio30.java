@@ -1,2 +1,10 @@
-package capitulo4;public class Ejercicio30 {
+package capitulo4;
+
+public class Ejercicio30 {
+
+
+    public static void main(String[] args) {
+
+
+    }
 }
