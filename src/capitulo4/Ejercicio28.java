@@ -37,7 +37,7 @@ public class Ejercicio28 {
         }*/
 
         /**
-         * Literal c
+         * Literal C
          * Salida: @@@@@
          */
         /*if (y == 8) {
