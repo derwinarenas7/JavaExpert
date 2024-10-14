@@ -3,13 +3,13 @@ package udemy.poo_interfaces.modelo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Curriculum extends Hoja {
+public class Curriculum extends Hoja implements Imprimible {
 
-    private String persona;
+    private Persona persona;
     private String carrera;
     private List<String> experiencia;
 
-    public Curriculum(String contenido, String persona, String carrera) {
+    public Curriculum(String contenido, Persona persona, String carrera) {
         super(contenido);
         this.persona = persona;
         this.carrera = carrera;
